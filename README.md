@@ -32,10 +32,10 @@ The mirror server is `mirrors.wisnuc.com`. Https is required.
 
 The server may cache file locally. If so, it should guarantee that the sha256 and binary executables are in sync.
 
-https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-x64
-https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-x64-sha256
-https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-a64
-https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-a64-sha256
++ https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-x64
++ https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-x64-sha256
++ https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-a64
++ https://mirrors.wisnuc.com/wisnuc-bootstrap/wisnuc-bootstrap-linux-a64-sha256
 
 
 
