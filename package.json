@@ -1,0 +1,25 @@
+{
+  "name": "wisnuc-bootstrap-update",
+  "version": "1.0.0",
+  "description": "The reworked wisnuc-bootstrap auto-update based on nexe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisnuc/wisnuc-bootstrap-update.git"
+  },
+  "author": "lewis.ma@winsuntech.cn",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wisnuc/wisnuc-bootstrap-update/issues"
+  },
+  "homepage": "https://github.com/wisnuc/wisnuc-bootstrap-update#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "request": "^2.83.0",
+    "rimraf": "^2.6.2",
+    "uuid": "^3.1.0"
+  }
+}
