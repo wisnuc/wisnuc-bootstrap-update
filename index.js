@@ -10,8 +10,12 @@ const request = require('request')
 const isSHA256 = hash => /[a-f0-9]{64}/.test(hash)
 
 // constants
-const githubPrepend = 'https://raw.githubusercontent.com/wisnuc/wisnuc-bootstrap/release/'
-const mirrorPrepend = 'https://mirrors.wisnuc.com/wisnuc-bootstrap/'
+const branch = process.argv.includes('--staging') ? 'staging' : 'release'
+
+console.log(`INFO using ${branch} branch`)
+
+const githubPrepend = `https://raw.githubusercontent.com/wisnuc/wisnuc-bootstrap/${branch}/`
+const mirrorPrepend = `https://mirrors.wisnuc.com/wisnuc-bootstrap/${branch}/`
 
 /**
 /wisnuc/wisnuc-bootstrap                <- target
