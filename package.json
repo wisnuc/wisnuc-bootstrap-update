@@ -17,13 +17,13 @@
   },
   "homepage": "https://github.com/wisnuc/wisnuc-bootstrap-update#readme",
   "dependencies": {
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.6",
     "request": "^2.83.0",
     "rimraf": "^2.6.2",
     "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "nexe": "^2.0.0-rc.22",
+    "nexe": "^2.0.0-rc.34",
     "typescript": "^2.6.2"
   }
 }
